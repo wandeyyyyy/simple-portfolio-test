@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        
+        
+    </head>
+<body>
+<!-- nav bar -->
+<nav class="nav">
+    <button class="btn-nav"><i class="fa-solid fa-bars "></i></button>
+    <ul class="nav-ul">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+</nav>
+<!-- home profile -->
+<section class="home-profile" id="home">
+    <div class="home home1">
+<h1 class="hi"> <span class="wave">Hi</span> &#128075;</h1> <br>
+<p class="name">My Name is Yewande </p> <br>
+<p class="name">I am a <span class="job">Web Developer</span> and <span class="job"> An Educator</span></p>
+    </div>
+    <div class="home imag">
+        <img src="images/img11.png" class="first-img" alt="pic">
+    </div>
+
+</section>
+<!-- about -->
+<section class="about sect" id="about">
+<h2>ABOUT ME</h2>
+<hr>
+<p>
+ I'm a passionate Web Developer with a background in biology education and a recent transition into tech. After completing my degree in biology, I spent several years in education, where I honed my skills in communication, problem-solving, and collaboration. These experiences inspired me to dive into the world of technology, where I discovered a love for coding and building web applications. <br>
+
+I recently earned my Full Stack Development certification, and I have been applying my knowledge by working on exciting projects in the fields of women's health and educational technology. Through these projects, I aim to make a real-world impact by creating user-friendly, innovative, and inclusive digital solutions. <br>
+
+Currently, I'm exploring opportunities to grow as a developer and enhance my technical skills. I’m proficient in a variety of tools and technologies, including:
+<ul>
+   <li>Front-end: HTML, CSS, JavaScript, React</li> 
+   <li>Back-end: Node.js, Express, MongoDB</li>
+   <li>Version Control: Git, GitHub</li>
+   <li>Other tools: Bootstrap, Tailwind CSS, RESTful APIs</li>
+</ul>
+<p>When I'm not coding, you will find me experimenting with new recipes, reading up on emerging tech trends, or mentoring students who are curious about the intersection of education and technology.</p>
+</p>
+
+<button class="resume-btn" id="resume-btn">
+    <i class="fa fa-download"></i> Download Resume
+  </button>
+  
+</section>
+
+<!-- photos -->
+<section class="photos sect" id="photos">
+    <h2>MY PHOTOS</h2>
+<hr>
+<div class="flex-images">
+    <img src="images/img1.png" alt="pic" class="images">
+    <img src="images/img5.png" alt="pic" class="images">
+    <img src="images/img6.jpg" alt="pic" class="images">
+    <img src="images/img4.png" alt="pic" class="images">
+    <img src="images/img11.png" alt="pic" class="images">
+    <img src="images/img3.jpg" alt="pic" class="images">
+</div>
+
+</section>
+<!-- contsct -->
+<section class="contact sect" id="contact">
+<h2>CONTACT</h2>
+<hr>
+<form class="form1" id="submitform">
+    <div class="form">
+<input type="text" placeholder="Name" id="name">
+<input type="email" placeholder="Email" id="email ">
+<input type="text" placeholder="Message" id="message">
+
+    </div>
+   
+</form>
+<div class="btn1">
+<button type="submit"  onclick="submitForm()" class="btn">Send Message</button>
+</div>
+</section>
+<footer>
+    <hr>
+    <div class="icon1">
+    <div class="icon">
+   <a href="tel:+2348163810746"><i class="fa-solid fa-phone fa-lg icons" ></i></a>
+   <a href="https://www.linkedin.com/in/yewandeadeyemi231408"> <i class="fa-brands fa-linkedin fa-lg icons"></i></a>
+   <a href="mailto:yewandeadeyemi84@gmail.com"> <i class="fa-regular fa-envelope fa-lg icons"></i></a>
+   <a href="https://x.com/wande_adeyemi"> <i class="fa-brands fa-twitter fa-lg icons"></i></a>
+    <a href="https://github.com/wandeyyyyy"><i class="fa-brands fa-github fa-lg icons"></i></a>
+    </div>
+    </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
