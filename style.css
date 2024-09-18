@@ -99,7 +99,12 @@ li a {
     font-size: 18px;
 }
 
-
+.exp{
+    margin-top: 50px;
+}
+.experiences{
+    margin-top: 20px;
+}
 .photos h2{
     color: #847e7e;
     font-weight: 900;
